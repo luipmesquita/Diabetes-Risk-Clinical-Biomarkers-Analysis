@@ -2,15 +2,13 @@
 
 ## 📌 Executive Summary
 
-Diagnosing diabetes and assessing metabolic risk strictly through single blood parameters can lead to false positives or missed diagnoses. This project explores the interplay between **Fasting Stabilized Glucose (`stab_glu`)**, **Glycated Hemoglobin (`glyhb`)** (also knowned as HbA1c), and key anthropometric/demographic attributes (**Waist Circumference** and **Age**). 
-
-The goal is to evaluate the relationship between **Fasting Stabilized Glucose** and **Glycated Hemoglobin**,
+When assessing diabetes risk, there's one clinical metric that stands out in evaliation, and that is 𝐆𝐥𝐲𝐜𝐚𝐭𝐞𝐝 𝐇𝐞𝐦𝐨𝐠𝐥𝐨𝐛𝐢𝐧 (also known as HbA1c). But what about (Fasting) 𝐒𝐭𝐚𝐛𝐢𝐥𝐢𝐳𝐞𝐝 𝐆𝐥𝐮𝐜𝐨𝐬𝐞 and anthropometric attributes?
 
 ---
 
 ## 🔑 Key Insights & Analytics
 
-* **Stabilized Glucose vs. Glycated Hemoglobin:** There metrics have a positive 0.75 Pearson correlation, which shows their "symbiotic" relationship. Moreover, using Linear Regression and standard clinical thresholds (**126 mg/dL** for fasting glucose and **6.5%** for HbA1c), the analysis highlights strong concordance in extreme ranges, while isolating discordant cases (e.g., acute glucose spikes vs. chronic hyperglycemia).
+* **Stabilized Glucose vs. Glycated Hemoglobin:** These metrics have a positive 0.75 Pearson correlation, which shows their "symbiotic" relationship. Moreover, using Linear Regression and standard clinical thresholds (**126 mg/dL** for fasting glucose and **6.5%** for HbA1c), the analysis highlights strong concordance in extreme ranges, while isolating discordant cases (e.g., acute glucose spikes vs. chronic hyperglycemia).
 * **Central Adiposity Impact:** Scatter plots and correlation metrics reveal a strong upward trend between waist circumference and HbA1c levels, illustrating the role of visceral fat in metabolic risk.
 * **Age-Related Progression:** Demographic breakdown shows a marked shift in HbA1c density crossing the **6.5%** threshold past the age of 50, whereas younger cohorts (20–40) stay predominantly in the healthy range.
 
