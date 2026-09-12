@@ -44,4 +44,4 @@ The goal is to evaluate the relationship between **Fasting Stabilized Glucose** 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)luipmesquita/Diabetes-Risk-Analysis.git
+   git clone [https://github.com/](https://github.com/)luipmesquita/Diabetes-Risk-Clinical-Biomarkers-Analysis.git
