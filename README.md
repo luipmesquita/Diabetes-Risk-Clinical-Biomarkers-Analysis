@@ -14,33 +14,19 @@ In my latest end-to-end data project, I analyzed clinical data from the Universi
 
 2 - 𝐈𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐜𝐞 𝐨𝐟 𝐚𝐧𝐭𝐡𝐫𝐨𝐩𝐨𝐦𝐞𝐭𝐫𝐢𝐜 𝐚𝐭𝐭𝐫𝐢𝐛𝐮𝐭𝐞𝐬: 
 
-2.1 - There is a clear upward trend between Waist Circumference and elevated HbA1c, illustrating the direct role of visceral fat in insulin resistance.
+* There is a clear upward trend between Waist Circumference and elevated HbA1c, illustrating the direct role of visceral fat in insulin resistance.
 
-2.2 - Age-Related Progression breakdown shows a marked increase in HbA1c density crossing the 6.5% threshold past the age of 50, while younger cohorts (ages 20–40) remain predominantly in the healthy range.
-
+* Age-Related Progression breakdown shows a marked increase in HbA1c density crossing the 6.5% threshold past the age of 50, while younger cohorts (ages 20–40) remain predominantly in the healthy range.
 
 ---
 
 ## 🛠️ Tech Stack & Workflow
 
 𝐏𝐲𝐭𝐡𝐨𝐧 : Data ingestion (kagglehub), cleaning, normalization, and age-group median imputation.
+
 𝐏𝐨𝐰𝐞𝐫 𝐁𝐈 & 𝐃𝐀𝐗: Custom data modeling, interactive diagnostic quadrant scatter plots, and distribution analysis.
 
----
-
-## 🔑 Key Insights & Analytics
-
-* **Stabilized Glucose vs. Glycated Hemoglobin:** These metrics have a positive 0.75 Pearson correlation, which shows their "symbiotic" relationship. Moreover, using Linear Regression and standard clinical thresholds (**126 mg/dL** for fasting glucose and **6.5%** for HbA1c), the analysis highlights strong concordance in extreme ranges, while isolating discordant cases (e.g., acute glucose spikes vs. chronic hyperglycemia).
-* **Central Adiposity Impact:** Scatter plots and correlation metrics reveal a strong upward trend between waist circumference and HbA1c levels, illustrating the role of visceral fat in metabolic risk.
-* **Age-Related Progression:** Demographic breakdown shows a marked shift in HbA1c density crossing the **6.5%** threshold past the age of 50, whereas younger cohorts (20–40) stay predominantly in the healthy range.
-
----
-
-## 🛠️ Tech Stack & Workflow
-
-* **Python:** Data ingestion (`kagglehub`), deduplication, string normalization, missing value imputation using age-group medians (`groupby` + `transform`), and feature creation (`age_group`).
-* **Power BI & DAX:** Custom data modeling, interactive scatter plots with diagnostic quadrant reference lines, distribution histograms, and DAX measures for patient classification.
-* **Data Sources:** [University of Virginia Rural Health Diabetes Dataset.](https://www.kaggle.com/datasets/imtkaggleteam/diabetes/data)
+**Data Sources:** [University of Virginia Rural Health Diabetes Dataset.](https://www.kaggle.com/datasets/imtkaggleteam/diabetes/data)
 
 ---
 
